@@ -7,8 +7,7 @@
     "parser": "@babel/eslint-parser",
     "parserOptions": {
       "ecmaFeatures": {
-        "jsx": true,
-        "requireConfigFile": false
+        "jsx": true
       },
       "ecmaVersion": 2018,
       "sourceType": "module"
@@ -33,4 +32,4 @@
       "dist/",
       "build/"
     ]
-  }
+}
