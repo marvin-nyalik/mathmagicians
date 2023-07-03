@@ -1,0 +1,31 @@
+.keys {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25%;
+  height: 4rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.operator-keys {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25%;
+  height: 4rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  background: orange;
+}
+
+.operator-keys:hover {
+  background: lightsalmon;
+}
+
+.zero-key {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 4rem;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
