@@ -1,0 +1,30 @@
+.container {
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.output-result {
+  width: 100%;
+  height: 4rem;
+  font-size: 28px;
+  background: lightgray;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  color: whitesmoke;
+}
+
+.keys-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.calc-key {
+  width: 100%;
+}
