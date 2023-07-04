@@ -16,7 +16,7 @@ const Calculator = () => {
     'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   return (
     <div className="container">
-      <div className="output-result">{ total || next || operation || 0 }</div>
+      <div className="output-result">{`${total || ''}${operation || ''}${next || ''}`}</div>
       <div className="keys-container">
         <div className="calc-key">
           { btnValues.map((value) => (
