@@ -26,7 +26,6 @@ const Calculator = () => {
               handleInput={handleInput}
             />
           )) }
-          ;
         </div>
       </div>
     </div>
