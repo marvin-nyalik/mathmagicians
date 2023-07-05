@@ -22,12 +22,12 @@ const Quotes = () => {
       }
     };
     fetchQuote();
-  }, []);
+  }, [setData, setError]);
 
   return (
     <div>
       { data ? <p className="quote">{data}</p> : <p>Loading</p> }
-      { error ? <p>{error}</p> : '' }
+      { error && <p>{error}</p> }
     </div>
   );
 };
