@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Button from './Buttons';
-import './Calculator.css';
+import CalculatorCSS from './Calculator.module.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -15,10 +15,10 @@ const Calculator = () => {
   const btnValues = ['AC', '+/-', '%', '\u00F7', '7', '8', '9',
     'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   return (
-    <div className="container">
-      <div className="output-result">{`${total || ''}${operation || ''}${next || ''}`}</div>
-      <div className="keys-container">
-        <div className="calc-key">
+    <div className={CalculatorCSS.container}>
+      <div className={CalculatorCSS.outputresult}>{`${total || '0'}${operation || ''}${next || ''}`}</div>
+      <div className={CalculatorCSS.keyscontainer}>
+        <div className={CalculatorCSS.calckey}>
           { btnValues.map((value) => (
             <Button
               key={value}

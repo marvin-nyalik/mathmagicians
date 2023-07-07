@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Quote.css';
+import QuoteCSS from './Quote.module.css';
 
 const Quotes = () => {
   const [data, setData] = useState('');
@@ -25,9 +25,10 @@ const Quotes = () => {
   }, [setData, setError]);
 
   return (
-    <div>
-      { data ? <p className="quote">{data}</p> : <p>Loading</p> }
-      { error && <p>{error}</p> }
+    <div className={QuoteCSS.container}>
+      { data ? <p className={QuoteCSS.quote}>{data}</p>
+        : <p className={QuoteCSS.loading}>Loading...</p> }
+      { error && <p className={QuoteCSS.error}>{error}</p> }
     </div>
   );
 };

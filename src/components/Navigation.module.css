@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 5vw;
+  margin-top: 0;
+  height: 10vh;
+  align-items: center;
+  box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ul {
+  display: flex;
+}
+
+.ul li {
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 1rem;
+  color: white;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navlink:hover {
+  color: bisque;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: bisque;
+}
+
+.activeLink {
+  color: red;
+}
