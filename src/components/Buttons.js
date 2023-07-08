@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './Buttons.css';
 
 const Buttons = ({ value, handleInput }) => {
-  if (value === '+' || value === '-' || value === 'x' || value === '\u00F7') {
+  if (value === '+' || value === '=' || value === '-' || value === 'x' || value === '\u00F7') {
     return <button className="operator-keys" type="button" onClick={handleInput} key={value}>{value}</button>;
   }
   if (value === '0') {

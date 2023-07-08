@@ -39,3 +39,16 @@
   font-size: 20px;
   color: red;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 80vh;
+  }
+
+  .quote {
+    width: 80vw;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid white;
+  }
+}
