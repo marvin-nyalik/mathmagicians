@@ -8,14 +8,17 @@
   align-items: center;
   box-shadow: 2px 8px 4px rgba(0, 0, 0, 0.2);
 }
-.bars{
+
+.bars {
   color: white;
   font-size: 24px;
   display: none;
 }
+
 .close {
   display: none;
 }
+
 .ul {
   display: flex;
 }
@@ -52,13 +55,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .nav{
-    width: 98svw;
+  .nav {
+    width: 98vw;
     margin: 0;
   }
+
   .bars {
     display: block;
   }
+
   .ul {
     position: absolute;
     top: 0;
@@ -70,13 +75,15 @@
     flex-direction: column;
     background: #596d8c;
   }
-  .close{
+
+  .close {
     display: block;
     color: white;
     position: relative;
     right: -80%;
     overflow: hidden;
   }
+
   .ul li {
     margin: 20px 0;
   }
