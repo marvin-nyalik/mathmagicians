@@ -1,0 +1,54 @@
+.container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.quote {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+  font-style: italic;
+  width: 50vw;
+  height: auto;
+  padding: 1rem;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: rgb(239, 234, 160);
+}
+
+.quote::before {
+  content: '"...';
+}
+
+.quote::after {
+  content: '.."';
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: white;
+}
+
+.error {
+  font-size: 20px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 80vh;
+  }
+
+  .quote {
+    width: 80vw;
+    font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid white;
+  }
+}
