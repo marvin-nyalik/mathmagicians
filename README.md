@@ -5,6 +5,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#Prerequisites)
 - [👥 Authors](#authors)
@@ -16,7 +18,7 @@
 
 
 # Math-Magicians
-A Mathematics Calculator built in React coupled with interesting, randomly generated Mathematics quotes.
+A Mathematics Calculator built in React coupled with interesting randomly generated Mathematics quotes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,6 +39,10 @@ This project is built with React.
 - A page for general information
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+To visit the live version of this project <a href="https://mathematics-magicians.onrender.com/"> click here</a>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
