@@ -41,7 +41,7 @@ This project is built with React.
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 1. Clone this repository
-   run 
+   run
    `git clone https://github.com/marvin-nyalik/mathmagicians.git`
 
 2. Open the project in a text editor
@@ -69,6 +69,12 @@ In order to run this project you need:
 - Twitter: [@twitterhandle](https://twitter.com/NyalikMarvin)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/marvin-otieno-05ba83263/)
 
+👤 **KGOMOTSO(Troos) NACANE**
+
+- GitHub: [@githubhandle](https://github.com/Kgomotso196/)
+- Twitter: [@twitterhandle](https://twitter.com/t_r_o_o_s)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kgomotso-nacane/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -77,6 +83,7 @@ In order to run this project you need:
 - [ ] Mobile version of the project
 - [ ] Updating the U.I styles
 - [ ] Use and management of Asynchronous code
+- [ ] Add screen responsiveness
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +92,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/). Open a New Issue and I'll look intently into your suggestions.
+Feel free to check the [issues page](https://github.com/marvin-nyalik/mathmagicians/issues/). Open a New Issue and I'll look intently into your suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
