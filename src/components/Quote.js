@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import QuoteCSS from './Quote.module.css';
 
-const Quotes = () => {
+const Quote = () => {
   const [data, setData] = useState('');
   const [error, setError] = useState('');
 
@@ -33,4 +33,4 @@ const Quotes = () => {
   );
 };
 
-export default Quotes;
+export default Quote;
