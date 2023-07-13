@@ -123,7 +123,6 @@ export default function calculate(obj, buttonName) {
   if (!obj.next) {
     return { operation: buttonName };
   }
-
   // save the operation and shift 'next' into 'total'
   return {
     total: obj.next,

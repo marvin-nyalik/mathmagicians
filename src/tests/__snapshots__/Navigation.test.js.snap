@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navigation component correctly 1`] = `
+<nav
+  class="nav"
+>
+  <h2>
+    <a
+      aria-current="page"
+      class="logo active"
+      href="/"
+    >
+      Math-Magicians
+    </a>
+  </h2>
+  <ul
+    class="ul"
+  >
+    <li>
+      <a
+        aria-current="page"
+        class="navlink active"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        class="navlink"
+        href="/calculator"
+      >
+        Calculate
+      </a>
+    </li>
+    <li>
+      <a
+        class="navlink"
+        href="/quote"
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
