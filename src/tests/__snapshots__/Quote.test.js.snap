@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Quotes component correctly 1`] = `
+<div
+  class="container"
+>
+  <p
+    class="loading"
+  >
+    Loading...
+  </p>
+</div>
+`;
