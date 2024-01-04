@@ -2,8 +2,9 @@ name: Deploy To Render
 
 on:
   push:
-    branches: [ development ]
-    
+    branches:
+      - development
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,6 +23,10 @@ jobs:
       - name: Build React App
         run: npm run build
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to production
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
