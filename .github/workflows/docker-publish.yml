@@ -1,4 +1,4 @@
-name: ci
+name: containerization
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: marvin/math-magicians:latest
+          tags: vegasmarvin/math-magicians:latest
